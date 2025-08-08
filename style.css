@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* background: #000; */
+}
+
+/* HEAD */
+
+header,
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    flex: 1;
+    padding: 10px 18px;
+    align-items: center;
+}
+
+.nav,
+h1 {
+    color: gray;
+}
+
+.nav,
+ul,
+li,
+a {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    text-decoration: none;
+    align-items: center;
+}
+
+#link {
+    background: #000;
+    padding: 12px;
+    color: white;
+}
+
+/* MAIN */
+
+
+.main {
+    height: 70vh;
+    display: flex;
+    flex: 4;
+    gap: 15px;
+    padding: 10px;
+}
+
+.main,
+.main-container {
+    background: black;
+    flex: 1;
+    color: white;
+    font-weight: 10px;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.main,
+.main-container,
+.text {
+    margin-bottom: 40px;
+
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main,
+.main-contant {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form,
+.bnt {
+    background: rgba(255, 0, 0, 0.815);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.form,
+.bnt:hover {
+    background: black;
+}
+
+.form {
+    padding: 10px;
+    color: black;
+    background: white;
+    width: 55%;
+    height: 65vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 60px;
+}
+
+.name {
+    display: flex;
+}
+
+input {
+    width: 60%;
+    padding: 18px 15px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+.number {
+    display: flex;
+}
+
+.com {
+    display: flex;
+}
+.last{
+    margin-top: 8px;
+}
+
+.first,
+.last,
+.email,
+.phone,
+.company,
+.role {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.icon-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* SECTION */
+section,
+.section {
+    background: white;
+    flex: 8;
+    height: 66vh;
+    margin-top: 54px;
+}
+
+.first {
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 20px;
+    margin: 0px 60px;
+    margin-top: 20px;
+}
+
+.card-1 {
+    flex: 1;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.card-2 {
+    flex: 1;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    color: gray;
+    padding: 0px 20px;
+
+}
+
+.img {
+    width: 35%;
+}
+
+.contant {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.pic {
+    width: 15%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 20px;
+    margin: 0px 60px;
+    margin-top: 30px;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.secoend {
+    background: white;
+    color: black;
+
+}
+
+h2 {
+    padding-bottom: 12px;
+}
+
+.third {
+    background: white;
+    color: black;
+}
+
+.title {
+    display: flex;
+}
+
+.char {
+    padding: 54px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.click {
+    display: flex;
+    gap: 30px;
+}
+
+.ch {
+    background: red;
+    padding: 15px 20px;
+    color: white;
+}
+.third{
+    padding-top: 110px;
+}
+
+.chs {
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.chs:hover {
+    background: #000;
+    color: white;
+}
+.h3 {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products {
+    background: white;
+    display: flex;
+    text-align: center;
+    color: black;
+    gap: 20px;
+    padding-top: 90px;
+}
+.num-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.num-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.num-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.nums {
+    background: rgba(233, 181, 181, 0.384);
+    padding: 52px 30px;
+    width: 25%;
+    margin-left: 32%;
+    border-radius: 100px;
+    color: red;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.numbers {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+.style {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.browse{
+    text-align: center;
+    background: white;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 110vh;
+
+}
+.app{
+    color: black;
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    padding:15px 60px;
+}
+.Mol, .Mols, img{
+    width: 14%;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+.Mol{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 60px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+.Mol p{
+    text-align: start;
+}
+.Mols p{
+    text-align: start;
+}
+.Mols{
+    flex: 1;
+    display: flex;
+    padding: 60px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+.apps{
+    color: black;
+    display: flex;
+    gap: 30px;
+    padding: 0px 60px;
+}
+.bottom{
+    padding-top: 70px;
+    background: #000;
+    height: 125vh;
+}
+.Moll{
+    background: white;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 60px 30px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+.Moll img{
+    width: 10%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+}
+.ad{
+    background: rgba(173, 216, 230, 0.24);
+    padding: 0px 16px;
+    height: 54px;
+    border-radius: 18px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appp{
+    color: black;
+    display: flex;
+    gap: 30px;
+    padding:15px 60px;
+}
+.footer{
+    background: white;
+    color: black;
+    display: flex;
+    gap: 40px;
+    padding: 40px 55px;
+    justify-content: space-evenly;
+    /* margin-top: 60px; */
+}
+.int{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.new{
+    background: #000;
+    width: 5%;
+    padding: 4px 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.black{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.En{
+    background: white;
+    color: black;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 20px; */
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    margin: 0px 35px;
+   
+}
+.Pr{
+    background: white;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.Po{
+    display: flex;
+    gap: 25px;
+}
