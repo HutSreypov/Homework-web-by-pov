@@ -179,7 +179,7 @@ section,
     margin-top: 54px;
 }
 
-.first {
+.firsts {
     margin-top: 10px;
 }
 
@@ -513,7 +513,7 @@ h2 {
 .int h2:hover{
     color: rgb(15, 15, 136);
 }
-.first:hover{
+.firsts:hover{
     border: 1px solid blue;
 }
 /* .secoend:hover{
@@ -528,15 +528,15 @@ h2 {
 .card-2:hover{
      border: 1px solid lightblue;
 }
-.third:hover{
+/* .third:hover{
     border: 1px solid blue;
-}
+} */
 .products:hover{
     border: 1px solid rgba(0, 0, 255, 0.685);
 }
-.browse:hover{
+/* .browse:hover{
     border: 1px solid rgba(0, 0, 255, 0.795);
-}
+} */
 .bottom:hover{
     border: 1px solid rgba(0, 0, 255, 0.795);
 }
