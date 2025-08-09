@@ -110,6 +110,9 @@ a {
 .form,
 .bnt:hover {
     background: black;
+        transform: translateY(-7px);
+    transition: .5s;
+
 }
 
 .form {
@@ -148,7 +151,8 @@ label {
 .com {
     display: flex;
 }
-.last{
+
+.last {
     margin-top: 8px;
 }
 
@@ -275,7 +279,8 @@ h2 {
     padding: 15px 20px;
     color: white;
 }
-.third{
+
+.third {
     padding-top: 110px;
 }
 
@@ -289,7 +294,17 @@ h2 {
 .chs:hover {
     background: #000;
     color: white;
+        transform: translateY(-7px);
+    transition: .5s;
+
 }
+.ch:hover{
+    background: rgba(255, 0, 0, 0.637);
+        transform: translateY(-7px);
+    transition: .5s;
+
+}
+
 .h3 {
     color: red;
     font-weight: bold;
@@ -311,24 +326,28 @@ h2 {
     gap: 20px;
     padding-top: 90px;
 }
+
 .num-1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
     flex: 1;
 }
+
 .num-2 {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .num-3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
     flex: 1;
 }
+
 .nums {
     background: rgba(233, 181, 181, 0.384);
     padding: 52px 30px;
@@ -346,18 +365,21 @@ h2 {
     text-align: center;
     padding: 20px;
 }
+
 .style {
     color: black;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
-.product{
+
+.product {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.browse{
+
+.browse {
     text-align: center;
     background: white;
     padding-top: 150px;
@@ -367,66 +389,79 @@ h2 {
     height: 110vh;
 
 }
-.app{
+
+.app {
     color: black;
     display: flex;
     gap: 30px;
     padding-top: 20px;
-    padding:15px 60px;
+    padding: 15px 60px;
 }
-.Mol, .Mols, img{
+
+.Mol,
+.Mols,
+img {
     width: 14%;
     display: flex;
     align-items: start;
     gap: 20px;
 }
-.Mol{
+
+.Mol {
     display: flex;
     flex: 1;
     gap: 20px;
     padding: 60px 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.Mol p{
+
+.Mol p {
     text-align: start;
 }
-.Mols p{
+
+.Mols p {
     text-align: start;
 }
-.Mols{
+
+.Mols {
     flex: 1;
     display: flex;
     padding: 60px 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.apps{
+
+.apps {
     color: black;
     display: flex;
     gap: 30px;
     padding: 0px 60px;
 }
-.bottom{
+
+.bottom {
     padding-top: 70px;
     background: #000;
     height: 125vh;
 }
-.Moll{
+
+.Moll {
     background: white;
     display: flex;
     flex: 1;
     gap: 20px;
     padding: 60px 30px;
     border-radius: 18px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.Moll img{
+
+.Moll img {
     width: 10%;
     border-radius: 15px;
-    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
 }
-.ad{
+
+.ad {
     background: rgba(173, 216, 230, 0.24);
     padding: 0px 16px;
     height: 54px;
@@ -436,13 +471,15 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-.appp{
+
+.appp {
     color: black;
     display: flex;
     gap: 30px;
-    padding:15px 60px;
+    padding: 15px 60px;
 }
-.footer{
+
+.footer {
     background: white;
     color: black;
     display: flex;
@@ -451,12 +488,14 @@ h2 {
     justify-content: space-evenly;
     /* margin-top: 60px; */
 }
-.int{
+
+.int {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.new{
+
+.new {
     background: #000;
     width: 5%;
     padding: 4px 25px;
@@ -465,12 +504,14 @@ h2 {
     justify-content: center;
     border-radius: 30px;
 }
-.black{
+
+.black {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.En{
+
+.En {
     background: white;
     color: black;
     display: flex;
@@ -482,62 +523,89 @@ h2 {
     border-bottom: 1px solid gray;
     padding: 15px;
     margin: 0px 35px;
-   
+
 }
-.Pr{
+
+.Pr {
     background: white;
     color: #000;
     display: flex;
     justify-content: space-between;
     padding: 30px;
 }
-.Po{
+
+.Po {
     display: flex;
     gap: 25px;
 }
-.Mol:hover{
+
+.Mol:hover {
     background: rgba(173, 216, 230, 0.644);
+        transform: translateY(-7px);
+    transition: .5s;
+
 }
-.Mols:hover{
+
+.Mols:hover {
     background: rgba(173, 216, 230, 0.589);
+        transform: translateY(-7px);
+    transition: .5s;
+
 }
-.Moll:hover{
+
+.Moll:hover {
     background: rgb(210, 244, 255);
+    transform: translateY(-7px);
+    transition: .5s;
+
 }
-.nums:hover{
+
+.nums:hover {
     background: rgba(231, 109, 109, 0.534);
+        transform: translateY(-7px);
+    transition: .5s;
+
 }
-.int p:hover{
+
+.int p:hover {
     color: orange;
 }
-.int h2:hover{
+
+.int h2:hover {
     color: rgb(15, 15, 136);
 }
-.firsts:hover{
+
+.firsts:hover {
     border: 1px solid blue;
 }
+
 /* .secoend:hover{
     border: 1px solid blue;
 } */
-.each:hover{
+.each:hover {
     border: 1px solid lightblue;
 }
-.card-1:hover{
-     border: 1px solid lightblue;
+
+.card-1:hover {
+    border: 1px solid lightblue;
 }
-.card-2:hover{
-     border: 1px solid lightblue;
+
+.card-2:hover {
+    border: 1px solid lightblue;
 }
+
 /* .third:hover{
     border: 1px solid blue;
 } */
-.products:hover{
+.products:hover {
     border: 1px solid rgba(0, 0, 255, 0.685);
 }
+
 /* .browse:hover{
     border: 1px solid rgba(0, 0, 255, 0.795);
 } */
-.bottom:hover{
+.bottom:hover {
+    transform: translateY(-7px);
+    transition: .5s;
     border: 1px solid rgba(0, 0, 255, 0.795);
 }
-
