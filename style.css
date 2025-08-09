@@ -495,3 +495,49 @@ h2 {
     display: flex;
     gap: 25px;
 }
+.Mol:hover{
+    background: rgba(173, 216, 230, 0.644);
+}
+.Mols:hover{
+    background: rgba(173, 216, 230, 0.589);
+}
+.Moll:hover{
+    background: rgb(210, 244, 255);
+}
+.nums:hover{
+    background: rgba(231, 109, 109, 0.534);
+}
+.int p:hover{
+    color: orange;
+}
+.int h2:hover{
+    color: rgb(15, 15, 136);
+}
+.first:hover{
+    border: 1px solid blue;
+}
+/* .secoend:hover{
+    border: 1px solid blue;
+} */
+.each:hover{
+    border: 1px solid lightblue;
+}
+.card-1:hover{
+     border: 1px solid lightblue;
+}
+.card-2:hover{
+     border: 1px solid lightblue;
+}
+.third:hover{
+    border: 1px solid blue;
+}
+.products:hover{
+    border: 1px solid rgba(0, 0, 255, 0.685);
+}
+.browse:hover{
+    border: 1px solid rgba(0, 0, 255, 0.795);
+}
+.bottom:hover{
+    border: 1px solid rgba(0, 0, 255, 0.795);
+}
+
