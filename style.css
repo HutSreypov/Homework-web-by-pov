@@ -47,6 +47,11 @@ a {
     padding: 12px;
     color: white;
 }
+#link:hover{
+        transform: translateY(-7px);
+    transition: .5s;
+
+}
 
 /* MAIN */
 
